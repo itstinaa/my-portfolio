@@ -43,7 +43,7 @@ const projects = [
       "A comprehensive finance dashboard for tracking and analyzing financial data.",
     technologies: ["React", "JavaScript", "CSS"],
     image: financeImage,
-    liveUrl: "#",
+    liveUrl: "https://wallet-vision.netlify.app/",
     githubUrl: "#",
   },
 
@@ -55,7 +55,7 @@ const projects = [
       "A modern and responsive website for a fitness center.",
     technologies: ["React", "JavaScript", "CSS"],
     image: gymImage,
-    liveUrl: "#",
+    liveUrl: "https://gymironforgee.netlify.app/",
     githubUrl: "#",
   },
 
@@ -67,7 +67,7 @@ const projects = [
       "A modern and responsive website for a coffee shop.",
     technologies: ["Astro", "HTML", "CSS"],
     image: cafeImage,
-    liveUrl: "#",
+    liveUrl: "https://brewi.netlify.app/",
     githubUrl: "#",
   },
 
