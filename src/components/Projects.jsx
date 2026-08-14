@@ -9,6 +9,7 @@ import travelImage from "../assets/travelrecommendation.png";
 import financeImage from "../assets/wallet_vision.png";
 import gymImage from "../assets/ironforge.png";
 import cafeImage from "../assets/cafe brew.png";
+import dentistImage from "../assets/Dentist.png"
 
 const projects = [
   {
@@ -74,10 +75,11 @@ const projects = [
   {
     id: 6,
     number: "06",
-    title: "SAAS Dashboard",
+    title: "Dentist Website",
     description:
-      "A comprehensive dashboard for managing and analyzing SaaS metrics.",
+      "A modern and responsive website for a dental practice.",
     technologies: ["React", "JavaScript", "CSS"],
+    image: dentistImage,
     liveUrl: "#",
     githubUrl: "#",
   },
