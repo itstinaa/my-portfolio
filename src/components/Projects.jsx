@@ -141,6 +141,10 @@ function Projects() {
 
   return (
     <section id="projects" className="section" ref={sectionRef}>
+      <div className="section-glow glow-cyan" style={{ width: "450px", height: "450px", top: "10%", left: "5%" }}></div>
+      <div className="section-glow glow-purple" style={{ width: "380px", height: "380px", bottom: "10%", right: "8%" }}></div>
+      <div className="section-glow glow-orange" style={{ width: "320px", height: "320px", top: "50%", left: "50%" }}></div>
+      
       <div className="section-container">
         <div className="section-heading">
           <p>Some things I have built</p>

@@ -16,7 +16,6 @@ function About() {
         [
           ".about-heading-label",
           ".about-heading-title",
-          ".about-card",
           ".about-text h3",
           ".about-paragraph",
           ".about-details > div",
@@ -62,23 +61,6 @@ function About() {
             ease: "power3.out",
           },
           "-=0.3",
-        )
-
-        .fromTo(
-          ".about-card",
-          {
-            autoAlpha: 0,
-            x: -50,
-            rotation: -3,
-          },
-          {
-            autoAlpha: 1,
-            x: 0,
-            rotation: 0,
-            duration: 0.9,
-            ease: "power3.out",
-          },
-          "-=0.4",
         )
 
         .fromTo(
@@ -145,15 +127,6 @@ function About() {
           "-=0.2",
         );
 
-      // Gentle continuous photo movement
-      gsap.to(".profile-placeholder", {
-        y: -12,
-        duration: 2.5,
-        repeat: -1,
-        yoyo: true,
-        ease: "sine.inOut",
-      });
-
       ScrollTrigger.refresh();
     }, sectionRef);
 
@@ -176,12 +149,6 @@ function About() {
         </div>
 
         <div className="about-content">
-          <div className="about-card">
-            <div className="profile-placeholder">
-              <span>Your Photo</span>
-            </div>
-          </div>
-
           <div className="about-text">
             <h3>
               I build engaging digital experiences.

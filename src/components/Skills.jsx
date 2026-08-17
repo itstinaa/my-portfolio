@@ -217,6 +217,9 @@ function Skills() {
       className="section section-dark"
       ref={sectionRef}
     >
+      <div className="section-glow glow-purple" style={{ width: "420px", height: "420px", top: "20%", left: "5%" }}></div>
+      <div className="section-glow glow-orange" style={{ width: "380px", height: "380px", bottom: "15%", right: "8%" }}></div>
+      
       <div className="section-container">
         <div className="section-heading light">
           <p className="skills-heading-text">

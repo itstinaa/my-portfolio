@@ -162,6 +162,15 @@ function Hero() {
         ease: "sine.inOut",
       });
 
+      gsap.to(".hero-glow-three", {
+        x: -50,
+        y: 40,
+        duration: 6,
+        repeat: -1,
+        yoyo: true,
+        ease: "sine.inOut",
+      });
+
       gsap.to(".aurora-one", {
         x: 120,
         y: 60,
@@ -210,6 +219,7 @@ function Hero() {
     <section id="home" className="hero" ref={heroRef}>
       <div className="hero-glow hero-glow-one"></div>
       <div className="hero-glow hero-glow-two"></div>
+      <div className="hero-glow hero-glow-three"></div>
 
       <div className="hero-content">
         <div className="availability">

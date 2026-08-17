@@ -6,6 +6,9 @@ function Contact() {
 
   return (
     <section id="contact" className="section contact-section">
+      <div className="section-glow glow-purple" style={{ width: "400px", height: "400px", top: "15%", right: "5%" }}></div>
+      <div className="section-glow glow-cyan" style={{ width: "350px", height: "350px", bottom: "5%", left: "10%" }}></div>
+      
       <div className="section-container contact-layout">
         <div className="contact-information">
           <p className="contact-label">Contact</p>
